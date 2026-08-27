@@ -1,0 +1,34 @@
+{
+  "embedding": "all-mpnet-base-v2",
+  "dim": 768,
+  "reference": {
+    "point": 15.702028525056335,
+    "se": 0.47094332855748916
+  },
+  "conds": {
+    "DDS (sel.)": {
+      "point": 13.072801390644182,
+      "se": 0.41526725283421045,
+      "ratio": 0.8325549383497429,
+      "clears_ref": false
+    },
+    "MAP-Elites": {
+      "point": 13.671664824649394,
+      "se": 0.4186166709693056,
+      "ratio": 0.8706941783243477,
+      "clears_ref": false
+    },
+    "temperature (T=1.2)": {
+      "point": 19.74155602642371,
+      "se": 0.6016906115081566,
+      "ratio": 1.2572615057297434,
+      "clears_ref": true
+    },
+    "prompt (distinct.)": {
+      "point": 13.84442343203468,
+      "se": 0.4521003427465471,
+      "ratio": 0.881696489720586,
+      "clears_ref": false
+    }
+  }
+}

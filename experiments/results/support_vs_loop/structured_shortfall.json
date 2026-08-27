@@ -1,0 +1,42 @@
+{
+  "creative_1": {
+    "cov_by_round": [
+      0.9765625,
+      0.984375,
+      0.9921875
+    ],
+    "radius_covered": 0.5821085572242737,
+    "radius_missed": 0.6821240186691284,
+    "n_missed": 1
+  },
+  "creative_2": {
+    "cov_by_round": [
+      0.921875,
+      0.9453125,
+      0.9453125
+    ],
+    "radius_covered": 0.37492263317108154,
+    "radius_missed": 0.6048192977905273,
+    "n_missed": 7
+  },
+  "problem_1": {
+    "cov_by_round": [
+      0.8828125,
+      0.90625,
+      0.90625
+    ],
+    "radius_covered": 0.27150195837020874,
+    "radius_missed": 0.3608402907848358,
+    "n_missed": 12
+  },
+  "debate_1": {
+    "cov_by_round": [
+      0.9921875,
+      0.9921875,
+      0.9921875
+    ],
+    "radius_covered": 0.28412190079689026,
+    "radius_missed": 0.4397212266921997,
+    "n_missed": 1
+  }
+}

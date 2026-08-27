@@ -1,0 +1,1321 @@
+{
+ "n": {
+  "ref07": {
+   "creative_1": 128,
+   "creative_2": 128,
+   "problem_1": 128,
+   "debate_1": 128,
+   "reasoning_2": 128,
+   "factual_1": 128,
+   "factual_2": 128,
+   "debate_2": 128,
+   "ideation_1": 128,
+   "ideation_2": 128,
+   "ideation_3": 128,
+   "creative_3": 128
+  },
+  "temp10": {
+   "creative_1": 128,
+   "creative_2": 128,
+   "problem_1": 128,
+   "debate_1": 128,
+   "reasoning_2": 128,
+   "factual_1": 128,
+   "factual_2": 128,
+   "debate_2": 128,
+   "ideation_1": 128,
+   "ideation_2": 128,
+   "ideation_3": 128,
+   "creative_3": 128
+  },
+  "temp12": {
+   "creative_1": 128,
+   "creative_2": 128,
+   "problem_1": 128,
+   "debate_1": 128,
+   "reasoning_2": 128,
+   "factual_1": 128,
+   "factual_2": 128,
+   "debate_2": 128,
+   "ideation_1": 128,
+   "ideation_2": 128,
+   "ideation_3": 128,
+   "creative_3": 128
+  },
+  "prompt_v1": {
+   "creative_1": 128,
+   "creative_2": 128,
+   "problem_1": 128,
+   "debate_1": 128,
+   "reasoning_2": 128,
+   "factual_1": 128,
+   "factual_2": 128,
+   "debate_2": 128,
+   "ideation_1": 128,
+   "ideation_2": 128,
+   "ideation_3": 128,
+   "creative_3": 128
+  },
+  "prompt_v2": {
+   "creative_1": 128,
+   "creative_2": 128,
+   "problem_1": 128,
+   "debate_1": 128,
+   "reasoning_2": 128,
+   "factual_1": 128,
+   "factual_2": 128,
+   "debate_2": 128,
+   "ideation_1": 128,
+   "ideation_2": 128,
+   "ideation_3": 128,
+   "creative_3": 128
+  },
+  "dds07": {
+   "creative_1": 120,
+   "creative_2": 120,
+   "problem_1": 120,
+   "debate_1": 120,
+   "reasoning_2": 120,
+   "factual_1": 120,
+   "factual_2": 120,
+   "debate_2": 120,
+   "ideation_1": 120,
+   "ideation_2": 120,
+   "ideation_3": 120,
+   "creative_3": 120
+  },
+  "dds12": {
+   "creative_1": 120,
+   "creative_2": 120,
+   "problem_1": 120,
+   "debate_1": 120,
+   "reasoning_2": 120,
+   "factual_1": 120,
+   "factual_2": 120,
+   "debate_2": 120,
+   "ideation_1": 120,
+   "ideation_2": 120,
+   "ideation_3": 120,
+   "creative_3": 120
+  },
+  "debate": {
+   "creative_1": 120,
+   "creative_2": 120,
+   "problem_1": 120,
+   "debate_1": 120,
+   "reasoning_2": 120,
+   "factual_1": 120,
+   "factual_2": 120,
+   "debate_2": 120,
+   "ideation_1": 120,
+   "ideation_2": 120,
+   "ideation_3": 120,
+   "creative_3": 120
+  },
+  "map": {
+   "creative_1": 120,
+   "creative_2": 120,
+   "problem_1": 120,
+   "debate_1": 120,
+   "reasoning_2": 120,
+   "factual_1": 120,
+   "factual_2": 120,
+   "debate_2": 120,
+   "ideation_1": 120,
+   "ideation_2": 120,
+   "ideation_3": 120,
+   "creative_3": 120
+  }
+ },
+ "d_eff": {
+  "ref07": {
+   "creative_1": {
+    "point": 25.95,
+    "se": 1.365,
+    "ci": [
+     23.27,
+     28.62
+    ]
+   },
+   "creative_2": {
+    "point": 12.85,
+    "se": 1.483,
+    "ci": [
+     9.95,
+     15.76
+    ]
+   },
+   "problem_1": {
+    "point": 15.43,
+    "se": 0.787,
+    "ci": [
+     13.89,
+     16.97
+    ]
+   },
+   "debate_1": {
+    "point": 23.04,
+    "se": 1.048,
+    "ci": [
+     20.99,
+     25.1
+    ]
+   },
+   "reasoning_2": {
+    "point": 5.9,
+    "se": 0.64,
+    "ci": [
+     4.65,
+     7.15
+    ]
+   },
+   "factual_1": {
+    "point": 7.2,
+    "se": 0.433,
+    "ci": [
+     6.35,
+     8.05
+    ]
+   },
+   "factual_2": {
+    "point": 10.33,
+    "se": 0.632,
+    "ci": [
+     9.09,
+     11.57
+    ]
+   },
+   "debate_2": {
+    "point": 29.86,
+    "se": 1.161,
+    "ci": [
+     27.59,
+     32.14
+    ]
+   },
+   "ideation_1": {
+    "point": 19.47,
+    "se": 0.819,
+    "ci": [
+     17.87,
+     21.08
+    ]
+   },
+   "ideation_2": {
+    "point": 22.97,
+    "se": 1.279,
+    "ci": [
+     20.47,
+     25.48
+    ]
+   },
+   "ideation_3": {
+    "point": 16.18,
+    "se": 1.074,
+    "ci": [
+     14.08,
+     18.29
+    ]
+   },
+   "creative_3": {
+    "point": 38.05,
+    "se": 1.536,
+    "ci": [
+     35.04,
+     41.06
+    ]
+   }
+  },
+  "temp10": {
+   "creative_1": {
+    "point": 40.14,
+    "se": 1.336,
+    "ci": [
+     37.52,
+     42.76
+    ]
+   },
+   "creative_2": {
+    "point": 12.8,
+    "se": 1.008,
+    "ci": [
+     10.83,
+     14.78
+    ]
+   },
+   "problem_1": {
+    "point": 17.86,
+    "se": 0.818,
+    "ci": [
+     16.25,
+     19.46
+    ]
+   },
+   "debate_1": {
+    "point": 24.36,
+    "se": 1.335,
+    "ci": [
+     21.74,
+     26.98
+    ]
+   },
+   "reasoning_2": {
+    "point": 8.8,
+    "se": 1.077,
+    "ci": [
+     6.69,
+     10.91
+    ]
+   },
+   "factual_1": {
+    "point": 8.32,
+    "se": 0.5,
+    "ci": [
+     7.34,
+     9.3
+    ]
+   },
+   "factual_2": {
+    "point": 11.96,
+    "se": 0.674,
+    "ci": [
+     10.64,
+     13.28
+    ]
+   },
+   "debate_2": {
+    "point": 33.88,
+    "se": 1.114,
+    "ci": [
+     31.69,
+     36.06
+    ]
+   },
+   "ideation_1": {
+    "point": 22.49,
+    "se": 0.974,
+    "ci": [
+     20.58,
+     24.4
+    ]
+   },
+   "ideation_2": {
+    "point": 27.17,
+    "se": 1.411,
+    "ci": [
+     24.4,
+     29.93
+    ]
+   },
+   "ideation_3": {
+    "point": 15.83,
+    "se": 1.174,
+    "ci": [
+     13.53,
+     18.13
+    ]
+   },
+   "creative_3": {
+    "point": 49.27,
+    "se": 1.782,
+    "ci": [
+     45.77,
+     52.76
+    ]
+   }
+  },
+  "temp12": {
+   "creative_1": {
+    "point": 46.41,
+    "se": 1.592,
+    "ci": [
+     43.29,
+     49.53
+    ]
+   },
+   "creative_2": {
+    "point": 15.3,
+    "se": 1.159,
+    "ci": [
+     13.03,
+     17.57
+    ]
+   },
+   "problem_1": {
+    "point": 17.01,
+    "se": 0.809,
+    "ci": [
+     15.42,
+     18.59
+    ]
+   },
+   "debate_1": {
+    "point": 26.07,
+    "se": 1.145,
+    "ci": [
+     23.82,
+     28.31
+    ]
+   },
+   "reasoning_2": {
+    "point": 10.53,
+    "se": 1.093,
+    "ci": [
+     8.39,
+     12.67
+    ]
+   },
+   "factual_1": {
+    "point": 8.46,
+    "se": 0.592,
+    "ci": [
+     7.3,
+     9.62
+    ]
+   },
+   "factual_2": {
+    "point": 13.66,
+    "se": 0.877,
+    "ci": [
+     11.94,
+     15.38
+    ]
+   },
+   "debate_2": {
+    "point": 33.94,
+    "se": 1.263,
+    "ci": [
+     31.46,
+     36.41
+    ]
+   },
+   "ideation_1": {
+    "point": 25.88,
+    "se": 1.44,
+    "ci": [
+     23.05,
+     28.7
+    ]
+   },
+   "ideation_2": {
+    "point": 31.03,
+    "se": 1.168,
+    "ci": [
+     28.75,
+     33.32
+    ]
+   },
+   "ideation_3": {
+    "point": 17.94,
+    "se": 1.202,
+    "ci": [
+     15.59,
+     20.3
+    ]
+   },
+   "creative_3": {
+    "point": 56.7,
+    "se": 2.004,
+    "ci": [
+     52.77,
+     60.63
+    ]
+   }
+  },
+  "prompt_v1": {
+   "creative_1": {
+    "point": 36.25,
+    "se": 1.455,
+    "ci": [
+     33.39,
+     39.1
+    ]
+   },
+   "creative_2": {
+    "point": 12.16,
+    "se": 0.925,
+    "ci": [
+     10.35,
+     13.97
+    ]
+   },
+   "problem_1": {
+    "point": 15.79,
+    "se": 0.95,
+    "ci": [
+     13.93,
+     17.65
+    ]
+   },
+   "debate_1": {
+    "point": 14.16,
+    "se": 1.037,
+    "ci": [
+     12.13,
+     16.2
+    ]
+   },
+   "reasoning_2": {
+    "point": 11.16,
+    "se": 0.935,
+    "ci": [
+     9.33,
+     12.99
+    ]
+   },
+   "factual_1": {
+    "point": 16.88,
+    "se": 0.995,
+    "ci": [
+     14.93,
+     18.83
+    ]
+   },
+   "factual_2": {
+    "point": 14.92,
+    "se": 0.733,
+    "ci": [
+     13.49,
+     16.36
+    ]
+   },
+   "debate_2": {
+    "point": 17.04,
+    "se": 1.138,
+    "ci": [
+     14.81,
+     19.27
+    ]
+   },
+   "ideation_1": {
+    "point": 13.44,
+    "se": 0.763,
+    "ci": [
+     11.95,
+     14.94
+    ]
+   },
+   "ideation_2": {
+    "point": 24.44,
+    "se": 1.301,
+    "ci": [
+     21.89,
+     26.99
+    ]
+   },
+   "ideation_3": {
+    "point": 12.17,
+    "se": 0.712,
+    "ci": [
+     10.77,
+     13.57
+    ]
+   },
+   "creative_3": {
+    "point": 44.84,
+    "se": 1.527,
+    "ci": [
+     41.84,
+     47.83
+    ]
+   }
+  },
+  "prompt_v2": {
+   "creative_1": {
+    "point": 36.15,
+    "se": 1.401,
+    "ci": [
+     33.4,
+     38.89
+    ]
+   },
+   "creative_2": {
+    "point": 25.31,
+    "se": 1.253,
+    "ci": [
+     22.86,
+     27.77
+    ]
+   },
+   "problem_1": {
+    "point": 24.04,
+    "se": 1.523,
+    "ci": [
+     21.05,
+     27.02
+    ]
+   },
+   "debate_1": {
+    "point": 22.5,
+    "se": 1.151,
+    "ci": [
+     20.25,
+     24.76
+    ]
+   },
+   "reasoning_2": {
+    "point": 25.22,
+    "se": 1.298,
+    "ci": [
+     22.68,
+     27.77
+    ]
+   },
+   "factual_1": {
+    "point": 22.03,
+    "se": 1.154,
+    "ci": [
+     19.77,
+     24.29
+    ]
+   },
+   "factual_2": {
+    "point": 18.27,
+    "se": 0.92,
+    "ci": [
+     16.47,
+     20.08
+    ]
+   },
+   "debate_2": {
+    "point": 20.95,
+    "se": 1.333,
+    "ci": [
+     18.34,
+     23.56
+    ]
+   },
+   "ideation_1": {
+    "point": 14.86,
+    "se": 0.755,
+    "ci": [
+     13.38,
+     16.34
+    ]
+   },
+   "ideation_2": {
+    "point": 18.26,
+    "se": 1.166,
+    "ci": [
+     15.97,
+     20.54
+    ]
+   },
+   "ideation_3": {
+    "point": 10.74,
+    "se": 0.705,
+    "ci": [
+     9.36,
+     12.12
+    ]
+   },
+   "creative_3": {
+    "point": 43.11,
+    "se": 1.677,
+    "ci": [
+     39.82,
+     46.39
+    ]
+   }
+  },
+  "dds07": {
+   "creative_1": {
+    "point": 31.08,
+    "se": 1.292,
+    "ci": [
+     28.55,
+     33.61
+    ]
+   },
+   "creative_2": {
+    "point": 11.16,
+    "se": 0.795,
+    "ci": [
+     9.61,
+     12.72
+    ]
+   },
+   "problem_1": {
+    "point": 12.39,
+    "se": 0.884,
+    "ci": [
+     10.66,
+     14.13
+    ]
+   },
+   "debate_1": {
+    "point": 18.79,
+    "se": 0.9,
+    "ci": [
+     17.03,
+     20.56
+    ]
+   },
+   "reasoning_2": {
+    "point": 7.52,
+    "se": 0.759,
+    "ci": [
+     6.03,
+     9.01
+    ]
+   },
+   "factual_1": {
+    "point": 7.82,
+    "se": 0.507,
+    "ci": [
+     6.83,
+     8.82
+    ]
+   },
+   "factual_2": {
+    "point": 5.69,
+    "se": 0.499,
+    "ci": [
+     4.71,
+     6.67
+    ]
+   },
+   "debate_2": {
+    "point": 15.09,
+    "se": 1.049,
+    "ci": [
+     13.03,
+     17.14
+    ]
+   },
+   "ideation_1": {
+    "point": 22.08,
+    "se": 1.054,
+    "ci": [
+     20.01,
+     24.14
+    ]
+   },
+   "ideation_2": {
+    "point": 22.2,
+    "se": 1.069,
+    "ci": [
+     20.11,
+     24.3
+    ]
+   },
+   "ideation_3": {
+    "point": 11.8,
+    "se": 0.705,
+    "ci": [
+     10.42,
+     13.18
+    ]
+   },
+   "creative_3": {
+    "point": 41.62,
+    "se": 1.605,
+    "ci": [
+     38.47,
+     44.76
+    ]
+   }
+  },
+  "dds12": {
+   "creative_1": {
+    "point": 47.61,
+    "se": 1.584,
+    "ci": [
+     44.5,
+     50.71
+    ]
+   },
+   "creative_2": {
+    "point": 19.13,
+    "se": 1.195,
+    "ci": [
+     16.79,
+     21.47
+    ]
+   },
+   "problem_1": {
+    "point": 17.56,
+    "se": 0.978,
+    "ci": [
+     15.64,
+     19.48
+    ]
+   },
+   "debate_1": {
+    "point": 25.57,
+    "se": 1.14,
+    "ci": [
+     23.34,
+     27.8
+    ]
+   },
+   "reasoning_2": {
+    "point": 12.79,
+    "se": 1.231,
+    "ci": [
+     10.37,
+     15.2
+    ]
+   },
+   "factual_1": {
+    "point": 9.09,
+    "se": 0.708,
+    "ci": [
+     7.71,
+     10.48
+    ]
+   },
+   "factual_2": {
+    "point": 8.65,
+    "se": 0.877,
+    "ci": [
+     6.93,
+     10.36
+    ]
+   },
+   "debate_2": {
+    "point": 18.21,
+    "se": 1.182,
+    "ci": [
+     15.89,
+     20.52
+    ]
+   },
+   "ideation_1": {
+    "point": 30.51,
+    "se": 1.237,
+    "ci": [
+     28.09,
+     32.94
+    ]
+   },
+   "ideation_2": {
+    "point": 26.69,
+    "se": 1.086,
+    "ci": [
+     24.56,
+     28.81
+    ]
+   },
+   "ideation_3": {
+    "point": 14.07,
+    "se": 0.829,
+    "ci": [
+     12.45,
+     15.7
+    ]
+   },
+   "creative_3": {
+    "point": 55.11,
+    "se": 2.121,
+    "ci": [
+     50.95,
+     59.27
+    ]
+   }
+  },
+  "debate": {
+   "creative_1": {
+    "point": 27.14,
+    "se": 1.47,
+    "ci": [
+     24.26,
+     30.02
+    ]
+   },
+   "creative_2": {
+    "point": 19.39,
+    "se": 1.463,
+    "ci": [
+     16.52,
+     22.26
+    ]
+   },
+   "problem_1": {
+    "point": 8.77,
+    "se": 0.58,
+    "ci": [
+     7.63,
+     9.91
+    ]
+   },
+   "debate_1": {
+    "point": 16.14,
+    "se": 0.933,
+    "ci": [
+     14.31,
+     17.97
+    ]
+   },
+   "reasoning_2": {
+    "point": 6.47,
+    "se": 0.654,
+    "ci": [
+     5.19,
+     7.75
+    ]
+   },
+   "factual_1": {
+    "point": 6.04,
+    "se": 0.452,
+    "ci": [
+     5.15,
+     6.93
+    ]
+   },
+   "factual_2": {
+    "point": 10.01,
+    "se": 0.496,
+    "ci": [
+     9.04,
+     10.99
+    ]
+   },
+   "debate_2": {
+    "point": 16.69,
+    "se": 0.963,
+    "ci": [
+     14.8,
+     18.58
+    ]
+   },
+   "ideation_1": {
+    "point": 20.99,
+    "se": 1.058,
+    "ci": [
+     18.91,
+     23.06
+    ]
+   },
+   "ideation_2": {
+    "point": 20.95,
+    "se": 0.965,
+    "ci": [
+     19.06,
+     22.84
+    ]
+   },
+   "ideation_3": {
+    "point": 14.59,
+    "se": 0.704,
+    "ci": [
+     13.21,
+     15.97
+    ]
+   },
+   "creative_3": {
+    "point": 35.81,
+    "se": 1.642,
+    "ci": [
+     32.59,
+     39.03
+    ]
+   }
+  },
+  "map": {
+   "creative_1": {
+    "point": 32.46,
+    "se": 1.378,
+    "ci": [
+     29.76,
+     35.16
+    ]
+   },
+   "creative_2": {
+    "point": 13.13,
+    "se": 0.891,
+    "ci": [
+     11.39,
+     14.88
+    ]
+   },
+   "problem_1": {
+    "point": 12.66,
+    "se": 0.792,
+    "ci": [
+     11.11,
+     14.22
+    ]
+   },
+   "debate_1": {
+    "point": 20.4,
+    "se": 0.893,
+    "ci": [
+     18.65,
+     22.15
+    ]
+   },
+   "reasoning_2": {
+    "point": 10.05,
+    "se": 0.81,
+    "ci": [
+     8.46,
+     11.64
+    ]
+   },
+   "factual_1": {
+    "point": 9.14,
+    "se": 0.616,
+    "ci": [
+     7.93,
+     10.35
+    ]
+   },
+   "factual_2": {
+    "point": 7.27,
+    "se": 0.684,
+    "ci": [
+     5.93,
+     8.61
+    ]
+   },
+   "debate_2": {
+    "point": 19.4,
+    "se": 1.015,
+    "ci": [
+     17.41,
+     21.39
+    ]
+   },
+   "ideation_1": {
+    "point": 20.56,
+    "se": 1.055,
+    "ci": [
+     18.49,
+     22.62
+    ]
+   },
+   "ideation_2": {
+    "point": 20.07,
+    "se": 1.12,
+    "ci": [
+     17.88,
+     22.27
+    ]
+   },
+   "ideation_3": {
+    "point": 13.53,
+    "se": 0.657,
+    "ci": [
+     12.24,
+     14.82
+    ]
+   },
+   "creative_3": {
+    "point": 42.86,
+    "se": 1.625,
+    "ci": [
+     39.68,
+     46.05
+    ]
+   }
+  }
+ },
+ "d_eff_mean": {
+  "ref07": 18.94,
+  "temp10": 22.74,
+  "temp12": 25.24,
+  "prompt_v1": 19.44,
+  "prompt_v2": 23.45,
+  "dds07": 17.27,
+  "dds12": 23.75,
+  "debate": 16.92,
+  "map": 18.46
+ },
+ "escape": {
+  "creative_1": {
+   "ctrl": 0.0103,
+   "dds07": 0.0581,
+   "temp12": 0.1166,
+   "prompt_v1": 0.1175
+  },
+  "creative_2": {
+   "ctrl": 0.0856,
+   "dds07": 0.4647,
+   "temp12": 0.3559,
+   "prompt_v1": 0.9225
+  },
+  "problem_1": {
+   "ctrl": 0.0275,
+   "dds07": 0.025,
+   "temp12": 0.0769,
+   "prompt_v1": 0.6903
+  },
+  "debate_1": {
+   "ctrl": 0.0009,
+   "dds07": 0.1259,
+   "temp12": 0.0612,
+   "prompt_v1": 0.9413
+  },
+  "reasoning_2": {
+   "ctrl": 0.0706,
+   "dds07": 0.2891,
+   "temp12": 0.4284,
+   "prompt_v1": 0.9894
+  },
+  "factual_1": {
+   "ctrl": 0.0284,
+   "dds07": 0.3266,
+   "temp12": 0.1025,
+   "prompt_v1": 1.0
+  },
+  "factual_2": {
+   "ctrl": 0.0266,
+   "dds07": 0.6722,
+   "temp12": 0.2888,
+   "prompt_v1": 1.0
+  },
+  "debate_2": {
+   "ctrl": 0.0006,
+   "dds07": 0.4541,
+   "temp12": 0.0213,
+   "prompt_v1": 1.0
+  },
+  "ideation_1": {
+   "ctrl": 0.0381,
+   "dds07": 0.2569,
+   "temp12": 0.1544,
+   "prompt_v1": 0.8903
+  },
+  "ideation_2": {
+   "ctrl": 0.0016,
+   "dds07": 0.6388,
+   "temp12": 0.0303,
+   "prompt_v1": 1.0
+  },
+  "ideation_3": {
+   "ctrl": 0.0222,
+   "dds07": 0.5359,
+   "temp12": 0.0606,
+   "prompt_v1": 0.9122
+  },
+  "creative_3": {
+   "ctrl": 0.0,
+   "dds07": 0.0078,
+   "temp12": 0.0266,
+   "prompt_v1": 0.0022
+  }
+ },
+ "leakage": {
+  "creative_1": {
+   "dds07": 0.07,
+   "temp12": 0.1514,
+   "prompt_v1": 0.1019,
+   "prompt_v2": 0.1278
+  },
+  "creative_2": {
+   "dds07": 0.0475,
+   "temp12": 0.0825,
+   "prompt_v1": 0.2399,
+   "prompt_v2": 0.286
+  },
+  "problem_1": {
+   "dds07": 0.0157,
+   "temp12": 0.0463,
+   "prompt_v1": 0.3144,
+   "prompt_v2": 0.4535
+  },
+  "debate_1": {
+   "dds07": 0.0429,
+   "temp12": 0.087,
+   "prompt_v1": 0.1414,
+   "prompt_v2": 0.2437
+  },
+  "reasoning_2": {
+   "dds07": 0.089,
+   "temp12": 0.1426,
+   "prompt_v1": 0.5062,
+   "prompt_v2": 0.6352
+  },
+  "factual_1": {
+   "dds07": 0.0795,
+   "temp12": 0.0683,
+   "prompt_v1": 0.5467,
+   "prompt_v2": 0.5519
+  },
+  "factual_2": {
+   "dds07": 0.1535,
+   "temp12": 0.0977,
+   "prompt_v1": 0.4807,
+   "prompt_v2": 0.5204
+  },
+  "debate_2": {
+   "dds07": 0.0468,
+   "temp12": 0.0514,
+   "prompt_v1": 0.2344,
+   "prompt_v2": 0.2368
+  },
+  "ideation_1": {
+   "dds07": 0.1248,
+   "temp12": 0.1108,
+   "prompt_v1": 0.2998,
+   "prompt_v2": 0.3534
+  },
+  "ideation_2": {
+   "dds07": 0.1638,
+   "temp12": 0.0757,
+   "prompt_v1": 0.2771,
+   "prompt_v2": 0.264
+  },
+  "ideation_3": {
+   "dds07": 0.0861,
+   "temp12": 0.0436,
+   "prompt_v1": 0.2228,
+   "prompt_v2": 0.255
+  },
+  "creative_3": {
+   "dds07": 0.0389,
+   "temp12": 0.1258,
+   "prompt_v1": 0.0834,
+   "prompt_v2": 0.1198
+  }
+ },
+ "tests": [
+  {
+   "label": "d_eff: temp1.2 vs ref",
+   "n": 12,
+   "t": 3.36,
+   "df": 11,
+   "p": 0.00641,
+   "wilcoxon_p": 0.00049,
+   "d": 0.97,
+   "sign": "12/12"
+  },
+  {
+   "label": "d_eff: temp1.0 vs ref",
+   "n": 12,
+   "t": 2.97,
+   "df": 11,
+   "p": 0.01275,
+   "wilcoxon_p": 0.00244,
+   "d": 0.86,
+   "sign": "10/12"
+  },
+  {
+   "label": "d_eff: DDS@0.7 vs ref",
+   "n": 12,
+   "t": -1.1,
+   "df": 11,
+   "p": 0.29669,
+   "wilcoxon_p": 0.38037,
+   "d": -0.32,
+   "sign": "5/12"
+  },
+  {
+   "label": "d_eff: prompt_v1 vs ref",
+   "n": 12,
+   "t": 0.24,
+   "df": 11,
+   "p": 0.8168,
+   "wilcoxon_p": 0.7334,
+   "d": 0.07,
+   "sign": "7/12"
+  },
+  {
+   "label": "d_eff: debate vs ref",
+   "n": 12,
+   "t": -1.4,
+   "df": 11,
+   "p": 0.19023,
+   "wilcoxon_p": 0.15137,
+   "d": -0.4,
+   "sign": "4/12"
+  },
+  {
+   "label": "d_eff: map-elites vs ref",
+   "n": 12,
+   "t": -0.36,
+   "df": 11,
+   "p": 0.72797,
+   "wilcoxon_p": 0.8501,
+   "d": -0.1,
+   "sign": "6/12"
+  },
+  {
+   "label": "d_eff: DDS@1.2 vs temp1.2 (M4)",
+   "n": 12,
+   "t": -0.95,
+   "df": 11,
+   "p": 0.36164,
+   "wilcoxon_p": 0.62207,
+   "d": -0.27,
+   "sign": "6/12"
+  },
+  {
+   "label": "d_eff: DDS@1.2 vs ref (M4)",
+   "n": 12,
+   "t": 1.88,
+   "df": 11,
+   "p": 0.08637,
+   "wilcoxon_p": 0.05225,
+   "d": 0.54,
+   "sign": "9/12"
+  },
+  {
+   "label": "escape: DDS vs ctrl",
+   "n": 12,
+   "t": 4.41,
+   "df": 11,
+   "p": 0.00105,
+   "wilcoxon_p": 0.00098,
+   "d": 1.27,
+   "sign": "11/12"
+  },
+  {
+   "label": "leakage: prompt_v1 vs temp",
+   "n": 12,
+   "t": 4.23,
+   "df": 11,
+   "p": 0.00142,
+   "wilcoxon_p": 0.00244,
+   "d": 1.22,
+   "sign": "10/12"
+  },
+  {
+   "label": "leakage: temp vs DDS",
+   "n": 12,
+   "t": 0.66,
+   "df": 11,
+   "p": 0.52418,
+   "wilcoxon_p": 0.62207,
+   "d": 0.19,
+   "sign": "7/12"
+  },
+  {
+   "label": "leakage: prompt_v1 vs DDS",
+   "n": 12,
+   "t": 5.1,
+   "df": 11,
+   "p": 0.00035,
+   "wilcoxon_p": 0.00049,
+   "d": 1.47,
+   "sign": "12/12"
+  }
+ ],
+ "gradient": {
+  "pre-registered|escape_dds_excess": {
+   "rho": -0.007,
+   "p": 0.9825
+  },
+  "pre-registered|d_eff_ref": {
+   "rho": 0.595,
+   "p": 0.0411
+  },
+  "pre-registered|temp_expansion_ratio": {
+   "rho": 0.367,
+   "p": 0.2402
+  },
+  "alt: creative_2->ideation|escape_dds_excess": {
+   "rho": -0.036,
+   "p": 0.9119
+  },
+  "alt: creative_2->ideation|d_eff_ref": {
+   "rho": 0.681,
+   "p": 0.0147
+  },
+  "alt: creative_2->ideation|temp_expansion_ratio": {
+   "rho": 0.409,
+   "p": 0.1871
+  }
+ }
+}

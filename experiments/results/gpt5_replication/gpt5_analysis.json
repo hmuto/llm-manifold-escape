@@ -1,0 +1,187 @@
+{
+ "config": {
+  "model": "gpt-5-chat-latest",
+  "served_model": "gpt-5-chat-latest",
+  "max_tokens": 512,
+  "n_indep": 128,
+  "prompt_suffix": "\n\nImportant: give a response that takes a distinctive, non-obvious angle, deliberately different from the most common or expected answer.",
+  "dds": {
+   "n_agents": 8,
+   "n_rounds": 3,
+   "n_survive": 5,
+   "n_trials": 5,
+   "alpha": 0.5,
+   "beta": 2.0,
+   "bandwidth": 0.3
+  },
+  "tasks": [
+   "creative_1",
+   "creative_2",
+   "problem_1",
+   "debate_1"
+  ]
+ },
+ "per_task": {
+  "creative_1": {
+   "d_eff": {
+    "ref07": 27.1,
+    "temp12": 45.87,
+    "prompt_v1": 43.1,
+    "dds07": 32.7
+   },
+   "oor": {
+    "dds07": 0.1709,
+    "held_control": 0.0034,
+    "temp12": 0.0578,
+    "prompt_v1": 0.5038
+   },
+   "radius_ratio": {
+    "ref07": 1.0,
+    "temp12": 1.109,
+    "prompt_v1": 1.345,
+    "dds07": 1.175
+   },
+   "leakage": {
+    "dds07": 0.1046,
+    "temp12": 0.1183,
+    "prompt_v1": 0.1996
+   }
+  },
+  "creative_2": {
+   "d_eff": {
+    "ref07": 28.73,
+    "temp12": 29.36,
+    "prompt_v1": 15.5,
+    "dds07": 19.89
+   },
+   "oor": {
+    "dds07": 0.4125,
+    "held_control": 0.0019,
+    "temp12": 0.05,
+    "prompt_v1": 0.8741
+   },
+   "radius_ratio": {
+    "ref07": 1.0,
+    "temp12": 1.128,
+    "prompt_v1": 1.717,
+    "dds07": 1.364
+   },
+   "leakage": {
+    "dds07": 0.0754,
+    "temp12": 0.0228,
+    "prompt_v1": 0.1411
+   }
+  },
+  "problem_1": {
+   "d_eff": {
+    "ref07": 22.18,
+    "temp12": 22.23,
+    "prompt_v1": 38.14,
+    "dds07": 10.26
+   },
+   "oor": {
+    "dds07": 0.5003,
+    "held_control": 0.0469,
+    "temp12": 0.2331,
+    "prompt_v1": 1.0
+   },
+   "radius_ratio": {
+    "ref07": 1.0,
+    "temp12": 1.207,
+    "prompt_v1": 2.979,
+    "dds07": 1.532
+   },
+   "leakage": {
+    "dds07": 0.1305,
+    "temp12": 0.0667,
+    "prompt_v1": 0.4117
+   }
+  },
+  "debate_1": {
+   "d_eff": {
+    "ref07": 16.84,
+    "temp12": 20.98,
+    "prompt_v1": 23.5,
+    "dds07": 14.56
+   },
+   "oor": {
+    "dds07": 0.3759,
+    "held_control": 0.0106,
+    "temp12": 0.1156,
+    "prompt_v1": 0.92
+   },
+   "radius_ratio": {
+    "ref07": 1.0,
+    "temp12": 1.138,
+    "prompt_v1": 1.757,
+    "dds07": 1.324
+   },
+   "leakage": {
+    "dds07": 0.1211,
+    "temp12": 0.0708,
+    "prompt_v1": 0.2059
+   }
+  }
+ },
+ "task_means": {
+  "d_eff:ref07": 23.712,
+  "d_eff:temp12": 29.61,
+  "d_eff:prompt_v1": 30.06,
+  "d_eff:dds07": 19.352,
+  "oor:dds07": 0.365,
+  "oor:held_control": 0.016,
+  "oor:temp12": 0.114,
+  "oor:prompt_v1": 0.824,
+  "radius_ratio:ref07": 1.0,
+  "radius_ratio:temp12": 1.145,
+  "radius_ratio:prompt_v1": 1.95,
+  "radius_ratio:dds07": 1.349,
+  "leakage:dds07": 0.108,
+  "leakage:temp12": 0.07,
+  "leakage:prompt_v1": 0.24
+ },
+ "tests": [
+  {
+   "label": "d_eff: temp vs ref",
+   "t": 1.34,
+   "df": 3,
+   "p": 0.2713,
+   "sign": "4/4"
+  },
+  {
+   "label": "d_eff: dds vs ref",
+   "t": -1.12,
+   "df": 3,
+   "p": 0.3431,
+   "sign": "1/4"
+  },
+  {
+   "label": "d_eff: temp vs dds",
+   "t": 6.87,
+   "df": 3,
+   "p": 0.0063,
+   "sign": "4/4"
+  },
+  {
+   "label": "OOR: dds vs held",
+   "t": 5.53,
+   "df": 3,
+   "p": 0.0117,
+   "sign": "4/4"
+  },
+  {
+   "label": "leak: prompt vs dds",
+   "t": 2.62,
+   "df": 3,
+   "p": 0.0788,
+   "sign": "4/4"
+  },
+  {
+   "label": "leak: prompt vs temp",
+   "t": 2.86,
+   "df": 3,
+   "p": 0.0646,
+   "sign": "4/4"
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+  "embedding": "all-MiniLM-L6-v2",
+  "ks": [
+    10,
+    20,
+    30
+  ],
+  "results": {
+    "10": {
+      "captured": {
+        "held-out reference": {
+          "captured": 0.4368001608181231,
+          "sd": 0.06132431999668044,
+          "leak_vs_control": 0.0
+        },
+        "DDS (sel.)": {
+          "captured": 0.386791399072812,
+          "sd": 0.08009780697437109,
+          "leak_vs_control": 0.0500087617453111
+        },
+        "prompt (distinct.)": {
+          "captured": 0.2488946846008102,
+          "sd": 0.032458682769838626,
+          "leak_vs_control": 0.1879054762173129
+        },
+        "temperature T=1.0": {
+          "captured": 0.37985079821986856,
+          "sd": 0.08154623846175192,
+          "leak_vs_control": 0.05694936259825456
+        },
+        "temperature T=1.2": {
+          "captured": 0.3456576139128762,
+          "sd": 0.0926682032070973,
+          "leak_vs_control": 0.09114254690524692
+        }
+      },
+      "control": 0.4368001608181231,
+      "angle_heldout": 84.16143619726056,
+      "angle_temp": 85.00727326007988,
+      "residpr_heldout": 28.081838120703082,
+      "residpr_temp": 30.772754123105823
+    },
+    "20": {
+      "captured": {
+        "held-out reference": {
+          "captured": 0.5492190402950534,
+          "sd": 0.06079391705961471,
+          "leak_vs_control": 0.0
+        },
+        "DDS (sel.)": {
+          "captured": 0.5010185428428813,
+          "sd": 0.07807194674233411,
+          "leak_vs_control": 0.04820049745217214
+        },
+        "prompt (distinct.)": {
+          "captured": 0.34810166009298393,
+          "sd": 0.03616469560525489,
+          "leak_vs_control": 0.20111738020206948
+        },
+        "temperature T=1.0": {
+          "captured": 0.491910745964097,
+          "sd": 0.08384189657524775,
+          "leak_vs_control": 0.05730829433095641
+        },
+        "temperature T=1.2": {
+          "captured": 0.4546437719926212,
+          "sd": 0.09739314632797841,
+          "leak_vs_control": 0.09457526830243224
+        }
+      },
+      "control": 0.5492190402950534,
+      "angle_heldout": 87.76326827821575,
+      "angle_temp": 88.21202617332182,
+      "residpr_heldout": 29.742440140947288,
+      "residpr_temp": 32.369919519753715
+    },
+    "30": {
+      "captured": {
+        "held-out reference": {
+          "captured": 0.6145718564438667,
+          "sd": 0.06324086217420988,
+          "leak_vs_control": 0.0
+        },
+        "DDS (sel.)": {
+          "captured": 0.5671628353885108,
+          "sd": 0.08039495842405785,
+          "leak_vs_control": 0.04740902105535594
+        },
+        "prompt (distinct.)": {
+          "captured": 0.4133179992354279,
+          "sd": 0.03825119617097168,
+          "leak_vs_control": 0.2012538572084388
+        },
+        "temperature T=1.0": {
+          "captured": 0.5589745785602359,
+          "sd": 0.08384422557582454,
+          "leak_vs_control": 0.05559727788363078
+        },
+        "temperature T=1.2": {
+          "captured": 0.5219078887227401,
+          "sd": 0.09859294097130059,
+          "leak_vs_control": 0.09266396772112662
+        }
+      },
+      "control": 0.6145718564438667,
+      "angle_heldout": 88.52563450816658,
+      "angle_temp": 88.74457117105996,
+      "residpr_heldout": 30.291693985628985,
+      "residpr_temp": 32.94990927108591
+    }
+  }
+}

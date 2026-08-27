@@ -1,0 +1,127 @@
+{
+ "config_file": "results/prompt_neutral/prompt_neutral_20260722_195924.json",
+ "per_task": {
+  "creative_1": {
+   "leak_neutral": 0.0156,
+   "leak_prompt_v1": 0.1072,
+   "oor": 0.0,
+   "oor_held": 0.0112,
+   "deff": 21.37,
+   "deff_ref": 25.95,
+   "radius_ratio": 0.977
+  },
+  "creative_2": {
+   "leak_neutral": 0.1522,
+   "leak_prompt_v1": 0.2406,
+   "oor": 0.5675,
+   "oor_held": 0.0813,
+   "deff": 10.74,
+   "deff_ref": 12.85,
+   "radius_ratio": 1.399
+  },
+  "problem_1": {
+   "leak_neutral": 0.1668,
+   "leak_prompt_v1": 0.3123,
+   "oor": 0.1634,
+   "oor_held": 0.0247,
+   "deff": 10.53,
+   "deff_ref": 15.43,
+   "radius_ratio": 1.163
+  },
+  "debate_1": {
+   "leak_neutral": 0.1852,
+   "leak_prompt_v1": 0.1389,
+   "oor": 0.8522,
+   "oor_held": 0.0022,
+   "deff": 29.11,
+   "deff_ref": 23.04,
+   "radius_ratio": 1.74
+  },
+  "reasoning_2": {
+   "leak_neutral": 0.2785,
+   "leak_prompt_v1": 0.5053,
+   "oor": 0.9912,
+   "oor_held": 0.0931,
+   "deff": 8.25,
+   "deff_ref": 5.9,
+   "radius_ratio": 1.312
+  },
+  "factual_1": {
+   "leak_neutral": 0.3264,
+   "leak_prompt_v1": 0.5491,
+   "oor": 0.8519,
+   "oor_held": 0.0297,
+   "deff": 7.01,
+   "deff_ref": 7.2,
+   "radius_ratio": 1.25
+  },
+  "factual_2": {
+   "leak_neutral": 0.3017,
+   "leak_prompt_v1": 0.4873,
+   "oor": 1.0,
+   "oor_held": 0.03,
+   "deff": 12.58,
+   "deff_ref": 10.33,
+   "radius_ratio": 2.233
+  },
+  "debate_2": {
+   "leak_neutral": 0.1711,
+   "leak_prompt_v1": 0.2345,
+   "oor": 1.0,
+   "oor_held": 0.0003,
+   "deff": 30.77,
+   "deff_ref": 29.86,
+   "radius_ratio": 2.319
+  },
+  "ideation_1": {
+   "leak_neutral": 0.2233,
+   "leak_prompt_v1": 0.3044,
+   "oor": 0.3944,
+   "oor_held": 0.0356,
+   "deff": 21.43,
+   "deff_ref": 19.47,
+   "radius_ratio": 1.289
+  },
+  "ideation_2": {
+   "leak_neutral": 0.2499,
+   "leak_prompt_v1": 0.2772,
+   "oor": 0.9669,
+   "oor_held": 0.0006,
+   "deff": 35.6,
+   "deff_ref": 22.97,
+   "radius_ratio": 1.608
+  },
+  "ideation_3": {
+   "leak_neutral": 0.1534,
+   "leak_prompt_v1": 0.2228,
+   "oor": 0.4122,
+   "oor_held": 0.02,
+   "deff": 21.73,
+   "deff_ref": 16.18,
+   "radius_ratio": 1.372
+  },
+  "creative_3": {
+   "leak_neutral": 0.056,
+   "leak_prompt_v1": 0.0821,
+   "oor": 0.0069,
+   "oor_held": 0.0006,
+   "deff": 31.9,
+   "deff_ref": 38.05,
+   "radius_ratio": 1.063
+  }
+ },
+ "task_means": {
+  "leak_neutral": 0.19,
+  "leak_prompt_v1": 0.2885,
+  "oor": 0.6006,
+  "oor_held": 0.0274,
+  "deff": 20.085,
+  "deff_ref": 18.9358,
+  "radius_ratio": 1.4771
+ },
+ "test_prompt_vs_neutral_leak": {
+  "t11": 4.12,
+  "p": 0.00171,
+  "sign": "11/12"
+ }
+}

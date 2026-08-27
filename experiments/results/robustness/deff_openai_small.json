@@ -1,0 +1,82 @@
+{
+ "task_means": {
+  "ref07": 18.46,
+  "temp12": 27.44,
+  "prompt_v1": 22.62,
+  "dds07": 17.82
+ },
+ "per_task": {
+  "creative_1": {
+   "ref07": 26.1,
+   "temp12": 45.8,
+   "prompt_v1": 33.7,
+   "dds07": 32.1
+  },
+  "creative_2": {
+   "ref07": 16.4,
+   "temp12": 23.9,
+   "prompt_v1": 20.1,
+   "dds07": 18.7
+  },
+  "problem_1": {
+   "ref07": 15.3,
+   "temp12": 23.2,
+   "prompt_v1": 31.8,
+   "dds07": 17.2
+  },
+  "debate_1": {
+   "ref07": 32.4,
+   "temp12": 31.2,
+   "prompt_v1": 23.8,
+   "dds07": 14.7
+  },
+  "reasoning_2": {
+   "ref07": 8.5,
+   "temp12": 16.2,
+   "prompt_v1": 20.3,
+   "dds07": 12.0
+  },
+  "factual_1": {
+   "ref07": 9.1,
+   "temp12": 13.1,
+   "prompt_v1": 18.6,
+   "dds07": 13.7
+  },
+  "factual_2": {
+   "ref07": 10.5,
+   "temp12": 17.6,
+   "prompt_v1": 18.4,
+   "dds07": 12.4
+  },
+  "debate_2": {
+   "ref07": 23.0,
+   "temp12": 34.8,
+   "prompt_v1": 15.8,
+   "dds07": 14.6
+  },
+  "ideation_1": {
+   "ref07": 13.7,
+   "temp12": 23.1,
+   "prompt_v1": 13.7,
+   "dds07": 17.0
+  },
+  "ideation_2": {
+   "ref07": 19.4,
+   "temp12": 27.8,
+   "prompt_v1": 21.6,
+   "dds07": 17.5
+  },
+  "ideation_3": {
+   "ref07": 13.3,
+   "temp12": 17.9,
+   "prompt_v1": 12.5,
+   "dds07": 15.6
+  },
+  "creative_3": {
+   "ref07": 33.8,
+   "temp12": 54.7,
+   "prompt_v1": 41.0,
+   "dds07": 28.3
+  }
+ }
+}

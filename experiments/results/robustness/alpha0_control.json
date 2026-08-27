@@ -1,0 +1,234 @@
+{
+ "config": {
+  "source": "results/dynamics_mapelites/dynamics_mapelites_20260207_204808.json",
+  "conditions": [
+   "dds_alpha_0.0",
+   "dds_alpha_0.5",
+   "dds_alpha_1.0"
+  ],
+  "tasks": [
+   "creative_1",
+   "creative_2",
+   "problem_1",
+   "debate_1"
+  ],
+  "reference": "pooled round-0 across alpha conditions (context-free draws), n=120 per task",
+  "test_sets": "rounds 1-2 per condition, n=80"
+ },
+ "per_task": {
+  "creative_1": {
+   "n_ref": 120,
+   "dds_alpha_0.0": {
+    "n": 80,
+    "oor": 0.0813,
+    "oor_held": 0.0053,
+    "radius_ratio": 1.112,
+    "deff": 27.84,
+    "deff_ref_at_n": 22.91,
+    "leakage": 0.0837
+   },
+   "dds_alpha_0.5": {
+    "n": 80,
+    "oor": 0.079,
+    "oor_held": 0.007,
+    "radius_ratio": 1.137,
+    "deff": 28.54,
+    "deff_ref_at_n": 23.27,
+    "leakage": 0.11
+   },
+   "dds_alpha_1.0": {
+    "n": 80,
+    "oor": 0.066,
+    "oor_held": 0.009,
+    "radius_ratio": 1.094,
+    "deff": 29.81,
+    "deff_ref_at_n": 23.06,
+    "leakage": 0.0836
+   }
+  },
+  "creative_2": {
+   "n_ref": 120,
+   "dds_alpha_0.0": {
+    "n": 80,
+    "oor": 0.7293,
+    "oor_held": 0.0817,
+    "radius_ratio": 1.507,
+    "deff": 16.37,
+    "deff_ref_at_n": 8.7,
+    "leakage": 0.1839
+   },
+   "dds_alpha_0.5": {
+    "n": 80,
+    "oor": 0.7,
+    "oor_held": 0.081,
+    "radius_ratio": 1.501,
+    "deff": 15.07,
+    "deff_ref_at_n": 8.57,
+    "leakage": 0.159
+   },
+   "dds_alpha_1.0": {
+    "n": 80,
+    "oor": 0.769,
+    "oor_held": 0.0857,
+    "radius_ratio": 1.51,
+    "deff": 15.1,
+    "deff_ref_at_n": 8.84,
+    "leakage": 0.1635
+   }
+  },
+  "problem_1": {
+   "n_ref": 120,
+   "dds_alpha_0.0": {
+    "n": 80,
+    "oor": 0.0087,
+    "oor_held": 0.016,
+    "radius_ratio": 1.053,
+    "deff": 10.61,
+    "deff_ref_at_n": 12.61,
+    "leakage": 0.1074
+   },
+   "dds_alpha_0.5": {
+    "n": 80,
+    "oor": 0.0,
+    "oor_held": 0.01,
+    "radius_ratio": 1.073,
+    "deff": 15.08,
+    "deff_ref_at_n": 12.71,
+    "leakage": 0.1246
+   },
+   "dds_alpha_1.0": {
+    "n": 80,
+    "oor": 0.013,
+    "oor_held": 0.014,
+    "radius_ratio": 1.028,
+    "deff": 9.53,
+    "deff_ref_at_n": 12.68,
+    "leakage": 0.0684
+   }
+  },
+  "debate_1": {
+   "n_ref": 120,
+   "dds_alpha_0.0": {
+    "n": 80,
+    "oor": 0.4023,
+    "oor_held": 0.0003,
+    "radius_ratio": 1.534,
+    "deff": 18.82,
+    "deff_ref_at_n": 23.51,
+    "leakage": 0.1063
+   },
+   "dds_alpha_0.5": {
+    "n": 80,
+    "oor": 0.3437,
+    "oor_held": 0.0007,
+    "radius_ratio": 1.48,
+    "deff": 20.65,
+    "deff_ref_at_n": 23.54,
+    "leakage": 0.1052
+   },
+   "dds_alpha_1.0": {
+    "n": 80,
+    "oor": 0.2763,
+    "oor_held": 0.0003,
+    "radius_ratio": 1.464,
+    "deff": 18.66,
+    "deff_ref_at_n": 23.5,
+    "leakage": 0.1013
+   }
+  }
+ },
+ "tests": [
+  {
+   "label": "oor: alpha 0.5 vs alpha 0 (n=4 tasks)",
+   "n": 4,
+   "t": -1.95,
+   "df": 3,
+   "p": 0.14619,
+   "wilcoxon_p": 0.125,
+   "d": -0.98,
+   "sign": "0/4",
+   "upper95_one_sided": 0.0051
+  },
+  {
+   "label": "radius_ratio: alpha 0.5 vs alpha 0 (n=4 tasks)",
+   "n": 4,
+   "t": -0.21,
+   "df": 3,
+   "p": 0.84893,
+   "wilcoxon_p": 1.0,
+   "d": -0.1,
+   "sign": "2/4",
+   "upper95_one_sided": 0.0388
+  },
+  {
+   "label": "deff: alpha 0.5 vs alpha 0 (n=4 tasks)",
+   "n": 4,
+   "t": 1.18,
+   "df": 3,
+   "p": 0.32174,
+   "wilcoxon_p": 0.375,
+   "d": 0.59,
+   "sign": "3/4",
+   "upper95_one_sided": 4.2578
+  },
+  {
+   "label": "leakage: alpha 0.5 vs alpha 0 (n=4 tasks)",
+   "n": 4,
+   "t": 0.39,
+   "df": 3,
+   "p": 0.72446,
+   "wilcoxon_p": 0.875,
+   "d": 0.19,
+   "sign": "2/4",
+   "upper95_one_sided": 0.031
+  },
+  {
+   "label": "scalar_diversity: alpha 0.5 vs alpha 0 (n=4 tasks)",
+   "n": 4,
+   "t": 0.65,
+   "df": 3,
+   "p": 0.56172,
+   "wilcoxon_p": 0.875,
+   "d": 0.33,
+   "sign": "2/4",
+   "upper95_one_sided": 0.0178
+  }
+ ],
+ "scalar_diversity": {
+  "dds_alpha_0.0": [
+   0.3605,
+   0.2108,
+   0.0745,
+   0.0994
+  ],
+  "dds_alpha_0.5": [
+   0.3814,
+   0.2121,
+   0.0739,
+   0.0932
+  ],
+  "dds_alpha_1.0": [
+   0.3712,
+   0.2214,
+   0.0741,
+   0.0914
+  ]
+ },
+ "task_means": {
+  "dds_alpha_0.0:oor": 0.3054,
+  "dds_alpha_0.0:radius_ratio": 1.3015,
+  "dds_alpha_0.0:deff": 18.41,
+  "dds_alpha_0.0:leakage": 0.1203,
+  "dds_alpha_0.5:oor": 0.2807,
+  "dds_alpha_0.5:radius_ratio": 1.2977,
+  "dds_alpha_0.5:deff": 19.835,
+  "dds_alpha_0.5:leakage": 0.1247,
+  "dds_alpha_1.0:oor": 0.2811,
+  "dds_alpha_1.0:radius_ratio": 1.274,
+  "dds_alpha_1.0:deff": 18.275,
+  "dds_alpha_1.0:leakage": 0.1042,
+  "dds_alpha_0.0:scalar_diversity": 0.1863,
+  "dds_alpha_0.5:scalar_diversity": 0.1901,
+  "dds_alpha_1.0:scalar_diversity": 0.1895
+ }
+}

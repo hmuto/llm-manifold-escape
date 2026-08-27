@@ -1,0 +1,93 @@
+{
+ "model": "text-embedding-3-small",
+ "per_task": {
+  "creative_1": {
+   "dds07": 0.0813,
+   "temp12": 0.1448,
+   "prompt_v1": 0.0928
+  },
+  "creative_2": {
+   "dds07": 0.1297,
+   "temp12": 0.1317,
+   "prompt_v1": 0.3254
+  },
+  "problem_1": {
+   "dds07": 0.0966,
+   "temp12": 0.0967,
+   "prompt_v1": 0.3469
+  },
+  "debate_1": {
+   "dds07": 0.0569,
+   "temp12": 0.0669,
+   "prompt_v1": 0.1791
+  },
+  "reasoning_2": {
+   "dds07": 0.159,
+   "temp12": 0.1456,
+   "prompt_v1": 0.4708
+  },
+  "factual_1": {
+   "dds07": 0.1843,
+   "temp12": 0.0966,
+   "prompt_v1": 0.6085
+  },
+  "factual_2": {
+   "dds07": 0.2719,
+   "temp12": 0.1449,
+   "prompt_v1": 0.5146
+  },
+  "debate_2": {
+   "dds07": 0.1294,
+   "temp12": 0.093,
+   "prompt_v1": 0.2628
+  },
+  "ideation_1": {
+   "dds07": 0.1271,
+   "temp12": 0.1511,
+   "prompt_v1": 0.3649
+  },
+  "ideation_2": {
+   "dds07": 0.2825,
+   "temp12": 0.1133,
+   "prompt_v1": 0.4523
+  },
+  "ideation_3": {
+   "dds07": 0.2221,
+   "temp12": 0.1012,
+   "prompt_v1": 0.335
+  },
+  "creative_3": {
+   "dds07": 0.014,
+   "temp12": 0.139,
+   "prompt_v1": 0.0855
+  }
+ },
+ "mean": {
+  "dds07": 0.1462,
+  "temp12": 0.1187,
+  "prompt_v1": 0.3366
+ },
+ "tests": [
+  {
+   "label": "prompt vs dds",
+   "t": 5.88,
+   "df": 11,
+   "p": 0.00011,
+   "sign": "12/12"
+  },
+  {
+   "label": "prompt vs temp",
+   "t": 4.59,
+   "df": 11,
+   "p": 0.00078,
+   "sign": "10/12"
+  },
+  {
+   "label": "temp vs dds",
+   "t": -1.12,
+   "df": 11,
+   "p": 0.28728,
+   "sign": "6/12"
+  }
+ ]
+}

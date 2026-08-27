@@ -1,0 +1,108 @@
+{
+  "config": {
+    "name": "semantic_mapping_n8",
+    "n_agents": 8,
+    "n_rounds": 3,
+    "n_trials": 1,
+    "backend": "openai",
+    "model": "gpt-4o-mini",
+    "seed": 42,
+    "dds_alpha_values": [
+      0.0
+    ],
+    "map_n_bins": 5
+  },
+  "timestamp": "2026-02-06T02:13:58.218541",
+  "task_id": "creative_1",
+  "experiment": {
+    "n_niches": 1,
+    "semantic_interpretation": {
+      "coordinates": [
+        [
+          -0.17224944246741786,
+          -0.055488452621814746
+        ],
+        [
+          0.653134075028315,
+          -0.2104856688144843
+        ],
+        [
+          -0.41234181430174965,
+          -0.09521052137945163
+        ],
+        [
+          0.17748150237006394,
+          0.15069787194222548
+        ],
+        [
+          -0.27369566719296506,
+          0.09155607112189727
+        ],
+        [
+          0.44524561461201684,
+          0.10840005773346995
+        ],
+        [
+          -0.005232453746513408,
+          0.10574116339760985
+        ],
+        [
+          -0.41234181430174965,
+          -0.09521052137945167
+        ]
+      ],
+      "axes": [
+        {
+          "label": "Emotional Awake",
+          "positive_pole": "Emotional Awakening",
+          "negative_pole": "Impersonal Efficiency",
+          "explained_variance": 0.8703443255841303
+        },
+        {
+          "label": "Curiosity Spark",
+          "positive_pole": "Curiosity Spark, Impersonal Efficiency",
+          "negative_pole": "Low",
+          "explained_variance": 0.09449596903860165
+        }
+      ],
+      "feature_names": [
+        "Emotional Awakening",
+        "Technological Precision",
+        "Intriguing Contrast",
+        "Curiosity Spark",
+        "Impersonal Efficiency",
+        "Hidden Depths",
+        "Innovative Potential",
+        "Existential Reflection"
+      ],
+      "cluster_interpretations": {
+        "1": {
+          "n_members": 8,
+          "centroid": [
+            1.3877787807814457e-17,
+            2.2551405187698492e-17
+          ],
+          "top_features": [
+            [
+              "Technological Precision",
+              0.8625
+            ],
+            [
+              "Impersonal Efficiency",
+              0.75
+            ],
+            [
+              "Innovative Potential",
+              0.575
+            ]
+          ],
+          "axis1_interpretation": "high Emotional Awake",
+          "axis2_interpretation": "high Curiosity Spark",
+          "description": "Cluster characterized by Technological Precision (0.86)"
+        }
+      },
+      "total_explained_variance": 0.964840294622732
+    },
+    "key_insight": "Axes discovered POST-HOC from emergent niches"
+  }
+}

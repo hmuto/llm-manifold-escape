@@ -1,0 +1,24 @@
+# Core numerics
+numpy==2.4.2
+scipy==1.17.0
+scikit-learn==1.8.0
+pandas==3.0.0
+
+# Embeddings
+sentence-transformers==5.2.2
+
+# LLM backends
+openai==2.16.0
+anthropic==0.97.0
+
+# Plotting
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Utilities
+tqdm==4.67.2
+pyyaml==6.0.3
+
+# Note: these are the versions used to produce the paper's results.
+# Newer minor versions are generally compatible; if you need a locked
+# environment, install exactly these pins into a fresh virtualenv.

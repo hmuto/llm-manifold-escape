@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the accompanying paper."
+title: "Can an LLM Escape Its Own Manifold? Three Geometric Forms of Diversity Expansion (code and data)"
+authors:
+  - family-names: "Muto"
+    given-names: "Hideki"
+    affiliation: "Graduate School of System Design and Management, Keio University, Yokohama, Japan"
+  - family-names: "Ogi"
+    given-names: "Tetsuro"
+    affiliation: "Graduate School of System Design and Management, Keio University, Yokohama, Japan; Faculty of Health and Sport Science, Asia University, Tokyo, Japan"
+  - family-names: "Yakoh"
+    given-names: "Takahiro"
+    affiliation: "Graduate School of System Design and Management, Keio University, Yokohama, Japan"
+license: MIT
+repository-code: "https://github.com/hmuto/llm-manifold-escape"
+keywords:
+  - large language models
+  - multi-agent systems
+  - diversity collapse
+  - diversity evaluation
+  - quality-diversity
+  - effective dimensionality
+  - density-dependent selection

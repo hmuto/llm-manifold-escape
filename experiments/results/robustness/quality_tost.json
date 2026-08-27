@@ -1,0 +1,102 @@
+{
+ "config": {
+  "margin": 0.25,
+  "n_per_cell": 30,
+  "note": "margin chosen before this analysis; not preregistered",
+  "unit": "task-level means, n=12 tasks"
+ },
+ "per_task": {
+  "creative_1": {
+   "ref": 4.267,
+   "temp12": 4.156,
+   "prompt": 4.3
+  },
+  "creative_2": {
+   "ref": 4.656,
+   "temp12": 4.533,
+   "prompt": 4.6
+  },
+  "creative_3": {
+   "ref": 4.389,
+   "temp12": 4.156,
+   "prompt": 4.4
+  },
+  "debate_1": {
+   "ref": 3.922,
+   "temp12": 4.0,
+   "prompt": 3.978
+  },
+  "debate_2": {
+   "ref": 4.022,
+   "temp12": 4.067,
+   "prompt": 4.3
+  },
+  "factual_1": {
+   "ref": 4.033,
+   "temp12": 4.033,
+   "prompt": 3.833
+  },
+  "factual_2": {
+   "ref": 4.233,
+   "temp12": 4.267,
+   "prompt": 3.722
+  },
+  "ideation_1": {
+   "ref": 4.622,
+   "temp12": 4.711,
+   "prompt": 4.6
+  },
+  "ideation_2": {
+   "ref": 4.489,
+   "temp12": 4.522,
+   "prompt": 4.644
+  },
+  "ideation_3": {
+   "ref": 4.867,
+   "temp12": 4.922,
+   "prompt": 4.944
+  },
+  "problem_1": {
+   "ref": 3.822,
+   "temp12": 3.956,
+   "prompt": 3.467
+  },
+  "reasoning_2": {
+   "ref": 3.856,
+   "temp12": 3.989,
+   "prompt": 3.733
+  }
+ },
+ "contrasts": [
+  {
+   "contrast": "temp12_minus_ref",
+   "n_tasks": 12,
+   "mean_diff": 0.011,
+   "se": 0.032,
+   "ci90": [
+    -0.047,
+    0.069
+   ],
+   "p_lower_gt_minus_margin": 0.0,
+   "p_upper_lt_plus_margin": 1e-05,
+   "p_tost": 1e-05,
+   "p_two_sided": 0.7367,
+   "equivalent_at_margin": true
+  },
+  {
+   "contrast": "prompt_minus_ref",
+   "n_tasks": 12,
+   "mean_diff": -0.055,
+   "se": 0.063,
+   "ci90": [
+    -0.168,
+    0.058
+   ],
+   "p_lower_gt_minus_margin": 0.00499,
+   "p_upper_lt_plus_margin": 0.00026,
+   "p_tost": 0.00499,
+   "p_two_sided": 0.4036,
+   "equivalent_at_margin": true
+  }
+ ]
+}

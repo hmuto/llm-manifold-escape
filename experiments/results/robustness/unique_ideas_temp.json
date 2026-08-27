@@ -1,0 +1,67 @@
+{
+ "config": {
+  "draws": 3,
+  "n_sub": 40,
+  "judge": "gpt-4o",
+  "method": "run_brainstorming_case_study.count_unique_ideas"
+ },
+ "per_task": {
+  "creative_1": {
+   "ref07": [
+    20,
+    10,
+    20
+   ],
+   "temp12": [
+    20,
+    20,
+    10
+   ]
+  },
+  "creative_2": {
+   "ref07": [
+    12,
+    12,
+    16
+   ],
+   "temp12": [
+    40,
+    30,
+    38
+   ]
+  },
+  "problem_1": {
+   "ref07": [
+    5,
+    6,
+    4
+   ],
+   "temp12": [
+    5,
+    6,
+    6
+   ]
+  },
+  "debate_1": {
+   "ref07": [
+    15,
+    20,
+    22
+   ],
+   "temp12": [
+    48,
+    30,
+    20
+   ]
+  }
+ },
+ "summary": {
+  "ref_mean": 13.5,
+  "temp_mean": 22.75,
+  "ratio": 1.685,
+  "paired_t": 2.4,
+  "df": 11,
+  "p": 0.0353,
+  "sign": "7/12"
+ }
+}

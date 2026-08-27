@@ -1,0 +1,43 @@
+{
+ "max_seq_length": 256,
+ "truncation": {
+  "ref07": {
+   "mean_tokens": 514.9,
+   "frac_truncated": 0.9961
+  },
+  "dds07": {
+   "mean_tokens": 531.4,
+   "frac_truncated": 0.9993
+  },
+  "temp12": {
+   "mean_tokens": 517.8,
+   "frac_truncated": 0.998
+  },
+  "prompt_v1": {
+   "mean_tokens": 484.7,
+   "frac_truncated": 0.9896
+  }
+ },
+ "ksweep": {
+  "10": {
+   "dds07": 0.078,
+   "temp12": 0.089,
+   "prompt_v1": 0.273
+  },
+  "20": {
+   "dds07": 0.08,
+   "temp12": 0.09,
+   "prompt_v1": 0.288
+  },
+  "30": {
+   "dds07": 0.079,
+   "temp12": 0.087,
+   "prompt_v1": 0.286
+  },
+  "40": {
+   "dds07": 0.078,
+   "temp12": 0.083,
+   "prompt_v1": 0.279
+  }
+ }
+}
